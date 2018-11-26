@@ -9,12 +9,10 @@ public class Main {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
 		driver.close();
-		driver.quit();
 
-		/*System.setProperty("webdriver.gecko.driver", "..\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "..\\geckodriver.exe");
 		FirefoxDriver driver2 = new FirefoxDriver();
 		driver2.get("https://www.bestbuy.com/");
-		driver2.close();*/
 	}
 
 }

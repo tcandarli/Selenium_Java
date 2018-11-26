@@ -11,10 +11,10 @@ public class Main {
 		driver.close();
 		driver.quit();
 
-		/*System.setProperty("webdriver.gecko.driver", "..\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "..\\geckodriver.exe");
 		FirefoxDriver driver2 = new FirefoxDriver();
 		driver2.get("https://www.bestbuy.com/");
-		driver2.close();*/
+		driver2.close();
 	}
 
 }
