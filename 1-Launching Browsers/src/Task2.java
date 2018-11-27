@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Task2 {
@@ -12,6 +11,7 @@ public class Task2 {
 		driver.get("https://www.indeed.com");
 		driver.navigate().back();
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
 		driver.navigate().forward();
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
