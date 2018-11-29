@@ -14,13 +14,13 @@ public class Main {
 		driver.get("https://money.rediff.com/gainers/bse/daily/groupall");
 		driver.manage().window().maximize();
 
-		List<WebElement> names = driver.findElements(By.xpath("//*[@class='dataTable']/tbody/tr/td[4]"));
+		List<WebElement> names = driver.findElements(By.xpath("//*[@class='dataTable']/tbody/tr/td[1]"));
 		System.out.println(names.size());
 
 		List<WebElement> price = driver.findElements(By.xpath("//*[@class='dataTable']/tbody/tr/td[4]"));
 		System.out.println(price.size());
 		
-		String companyName = "Jyoti";
+		String companyName = "Commercial Engineers";
 
 		for (int i = 0; i < names.size(); i++) {
 
