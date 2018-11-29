@@ -12,27 +12,27 @@ public class DropDown {
 		System.setProperty("webdriver.chrome.driver", "..\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 
-//		driver.get("https://www.priceline.com/");
-//		driver.manage().window().maximize();
+		driver.get("https://www.priceline.com/");
+		driver.manage().window().maximize();
 
 		// We use Select class to select dropdowns
-//		Select s = new Select(driver.findElement(By.id("rooms")));
+		Select s = new Select(driver.findElement(By.id("rooms")));
 
-		// s.selectByIndex(2);
-//		s.selectByValue("7");
+		s.selectByIndex(2);
+		s.selectByValue("7");
 
 		// Print everything from the list
-//		List<WebElement> options = s.getOptions(); // first we get everything by getOptions()
-//		System.out.println(options.size());
+		List<WebElement> options = s.getOptions(); // first we get everything by getOptions()
+		System.out.println(options.size());
 
 		driver.get("http://toolsqa.com/automation-practice-form/");
 		driver.manage().window().maximize();
 
-		Select s = new Select(driver.findElement(By.id("#selenium_commands")));
-		s.selectByIndex(0);
-		s.selectByIndex(3);
+		Select s2 = new Select(driver.findElement(By.id("#selenium_commands")));
+		s2.selectByIndex(0);
+		s2.selectByIndex(3);
 
-		List<WebElement> allSelected = s.getAllSelectedOptions();
+		List<WebElement> allSelected = s2.getAllSelectedOptions();
 		System.out.println(allSelected.size());
 
 		for (WebElement e : allSelected) {

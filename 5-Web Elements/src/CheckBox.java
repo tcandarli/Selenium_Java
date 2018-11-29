@@ -15,7 +15,7 @@ public class CheckBox {
 		
 		List<WebElement> allCheckBoxes = driver.findElements(By.name("profession"));
 		allCheckBoxes.size();
-		allCheckBoxes.get(1).click();
+		allCheckBoxes.get(0).click();
 		System.out.println(allCheckBoxes.get(1).isSelected());
 		
 	}

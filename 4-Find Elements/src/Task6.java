@@ -16,10 +16,10 @@ public class Task6 {
 
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 
-//		System.out.println(links.size());
-//		WebElement link = links.get(9);
-//		System.out.println(link.getText());
-//		link.click();
+		System.out.println(links.size());
+		WebElement link = links.get(9);
+		System.out.println(link.getText());
+		link.click();
 
 		for (int i = 0; i < links.size(); i++) {
 			System.out.println(links.get(i).getText() + "|" + links.get(i).isDisplayed());

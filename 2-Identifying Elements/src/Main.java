@@ -17,10 +17,11 @@ public class Main {
 		driver.findElement(By.name("passwd")).sendKeys("abc123");
 
 		// linkText locator
-		// driver.findElement(By.linkText("Forgot Password?")).click();
+		driver.findElement(By.linkText("Forgot Password?")).click();
 
 		// partialLinkText locator
 		driver.findElement(By.partialLinkText("new account")).click();
+
 		driver.quit();
 	}
 

@@ -7,7 +7,6 @@ public class Main {
 
 		System.setProperty("webdriver.chrome.driver", "..\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-
 		driver.get("http://demo.guru99.com/test/guru99home/");
 		driver.manage().window().maximize();
 

@@ -28,7 +28,7 @@ public class Main {
 		
 		// Explicit Wait
 		
-		WebDriverWait wait = new WebDriverWait(driver, 10); // Wait 5 seconds
+		WebDriverWait wait = new WebDriverWait(driver, 10); // Wait 10 seconds
 		
 		driver.findElement(By.id("H-destination")).sendKeys("nyc");
 		driver.findElement(By.id("H-destination")).sendKeys(Keys.TAB);	// Press TAB key
