@@ -5,12 +5,12 @@ import org.testng.annotations.Test;
 public class AppBeforeAfterMethod {
 
 	@BeforeMethod
-	public void beforeTest() {
+	public void beforeMethod() {
 		System.out.println("---Before Method---");
 	}
 
 	@AfterMethod
-	public void afterTest() {
+	public void afterMethod() {
 		System.out.println("---After Method---");
 	}
 

@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AppSkipTest">
+      <class name="Task">
         <methods>
-          <include name="afterSuit"/>
-          <include name="beforeSuit"/>
-          <include name="PasswordChange"/>
+          <include name="Buy"/>
+          <include name="Register"/>
+          <include name="Search"/>
+          <include name="Pay"/>
+          <include name="Login"/>
+          <include name="Logout"/>
         </methods>
-      </class> <!-- AppSkipTest -->
+      </class> <!-- Task -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
