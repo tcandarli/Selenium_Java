@@ -1,25 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="1" failed="0" ignored="1" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="190" started-at="2018-12-03T17:32:01Z" finished-at="2018-12-03T17:32:01Z">
+  <suite name="Default suite" duration-ms="188" started-at="2018-12-03T18:00:00Z" finished-at="2018-12-03T18:00:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="190" started-at="2018-12-03T17:32:01Z" finished-at="2018-12-03T17:32:01Z">
-      <class name="App">
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:App@573f2bb1]" name="LoginTest" duration-ms="41" started-at="2018-12-03T17:32:01Z" finished-at="2018-12-03T17:32:01Z">
+    <test name="Default test" duration-ms="188" started-at="2018-12-03T18:00:00Z" finished-at="2018-12-03T18:00:00Z">
+      <class name="AppSkipTest">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:AppSkipTest@6cc4c815]" name="beforeSuit" is-config="true" duration-ms="57" started-at="2018-12-03T18:00:00Z" finished-at="2018-12-03T18:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="LoginTest()[pri:1, instance:AppSkipTest@6cc4c815]" name="LoginTest" duration-ms="46" started-at="2018-12-03T18:00:00Z" finished-at="2018-12-03T18:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="LogoutTest()[pri:0, instance:App@573f2bb1]" name="LogoutTest" duration-ms="5" started-at="2018-12-03T17:32:01Z" finished-at="2018-12-03T17:32:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutTest -->
-        <test-method status="PASS" signature="PasswordChange()[pri:0, instance:App@573f2bb1]" name="PasswordChange" duration-ms="2" started-at="2018-12-03T17:32:01Z" finished-at="2018-12-03T17:32:01Z">
+        <test-method status="SKIP" signature="PasswordChange()[pri:2, instance:AppSkipTest@6cc4c815]" name="PasswordChange" duration-ms="17" started-at="2018-12-03T18:00:00Z" finished-at="2018-12-03T18:00:00Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[any reason]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: any reason
+at AppSkipTest.PasswordChange(AppSkipTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PasswordChange -->
-      </class> <!-- App -->
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:AppSkipTest@6cc4c815]" name="afterSuit" is-config="true" duration-ms="1" started-at="2018-12-03T18:00:01Z" finished-at="2018-12-03T18:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- AppSkipTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

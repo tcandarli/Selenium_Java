@@ -1,21 +1,20 @@
 import org.testng.annotations.Test;
 
-public class App {
+public class AppPriority {
 
-	@Test
+	@Test(priority = 1)
 	public void LoginTest() {
-		// Selenium code
+		// selenium code
 		System.out.println("Login");
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void PasswordChange() {
 		System.out.println("Changing password");
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void LogoutTest() {
 		System.out.println("Logout");
 	}
-
 }
