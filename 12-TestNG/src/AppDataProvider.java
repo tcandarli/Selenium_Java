@@ -1,8 +1,10 @@
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class AppDataProvider {
 
+	@Ignore
 	@Test(dataProvider = "getdata")
 	public void loginTest(String username) {
 		System.out.println(username);
@@ -21,6 +23,12 @@ public class AppDataProvider {
 
 	}
 
+	@Test(dataProvider = "getdata2")
+	public void loginTest2(String username, String password, String phone, String browser) {
+		System.out.println(username + "|" + password + "|" + phone + "|" + browser);
+	}
+
+	@DataProvider
 	public Object[][] getdata2() {
 		Object[][] data = new Object[3][4];
 
@@ -41,7 +49,7 @@ public class AppDataProvider {
 		data[2][1] = "password-3";
 		data[2][2] = "phone-3";
 		data[2][3] = "browser-3";
-		
+
 		return data;
 
 	}
