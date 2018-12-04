@@ -14,7 +14,7 @@ public class AppDependsOnMethods {
 	public void PasswordChange() {
 		System.out.println("Changing password");
 	}
-
+ 
 	@Test(priority = 3, dependsOnMethods = { "PasswordChange" })
 	public void LogoutTest() {
 		System.out.println("Logout");
