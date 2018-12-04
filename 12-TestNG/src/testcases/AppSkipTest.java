@@ -1,3 +1,4 @@
+package testcases;
 import org.testng.SkipException;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
