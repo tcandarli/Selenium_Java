@@ -7,3 +7,9 @@
 2018-12-03 18:04:04,291 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-12-04 16:08:35,625 [Worker-11: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-12-06 17:07:29,618 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-10 16:52:45,239 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-10 16:55:55,938 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cybertek:selenium-maven-log4j:0.0.1-SNAPSHOT @ C:\Users\PC\Documents\github\Selenium\selenium-maven-log4j\pom.xml.
+2018-12-10 16:56:01,502 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /selenium-maven-log4j/src/main/java
+2018-12-10 16:56:01,513 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /selenium-maven-log4j/src/main/resources
+2018-12-10 16:56:01,521 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /selenium-maven-log4j/src/test/java
+2018-12-10 16:56:01,527 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /selenium-maven-log4j/src/test/resources
