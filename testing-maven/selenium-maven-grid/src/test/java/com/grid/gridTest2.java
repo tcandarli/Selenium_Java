@@ -13,11 +13,11 @@ public class gridTest2 {
 	@Test
 	public void login() throws MalformedURLException {
 
-		DesiredCapabilities caps = DesiredCapabilities.firefox();
+		DesiredCapabilities caps = DesiredCapabilities.chrome();
 		caps.setPlatform(Platform.ANY);
 		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.206:4444/wd/hub"), caps);
 		driver.get("https://www.cnn.com");
-		//driver.quit();
+	
 
 	}
 

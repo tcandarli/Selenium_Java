@@ -17,7 +17,7 @@ public class gridTest {
 		caps.setPlatform(Platform.ANY);
 		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.206:4444/wd/hub"), caps);
 		driver.get("https://www.amazon.com");
-		//driver.quit();
+		
 
 	}
 
