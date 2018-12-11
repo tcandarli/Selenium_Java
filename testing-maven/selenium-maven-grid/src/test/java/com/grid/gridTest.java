@@ -1,10 +1,28 @@
 package com.grid;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class gridTest {
 	
-	DesiredCapabilities caps = DesiredCapabilities.chrome();
+	@Test
+	public void login () throws MalformedURLException {
+		
+		DesiredCapabilities caps = DesiredCapabilities.chrome();
+		caps.setPlatform(Platform.ANY);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.0-206:4444/wd/hub"),caps);
+		
+	}
+	
+	
+	
+	
+	
 	
 
 }
