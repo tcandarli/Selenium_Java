@@ -38,7 +38,7 @@ public class googleSearchTest {
 		
 		int rcount = data.getRowCount("data");
 		
-		for (int i = 2; i<rcount; i++) {
+		for (int i = 2; i<=rcount; i++) {
 			
 			String item = data.getCellData("data", "Item", i);
 			driver.findElement(By.name("q")).sendKeys(item);
