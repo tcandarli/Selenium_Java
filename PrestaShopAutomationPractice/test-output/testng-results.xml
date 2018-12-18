@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16527" started-at="2018-12-18T22:08:45Z" finished-at="2018-12-18T22:09:01Z">
+  <suite name="Default suite" duration-ms="23814" started-at="2018-12-18T23:34:12Z" finished-at="2018-12-18T23:34:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16527" started-at="2018-12-18T22:08:45Z" finished-at="2018-12-18T22:09:01Z">
-      <class name="com.prestashop.tests.NegativeTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.prestashop.tests.NegativeTests@d2cc05a]" name="setup" is-config="true" duration-ms="10860" started-at="2018-12-18T22:08:45Z" finished-at="2018-12-18T22:08:56Z">
+    <test name="Default test" duration-ms="23814" started-at="2018-12-18T23:34:12Z" finished-at="2018-12-18T23:34:36Z">
+      <class name="com.prestashop.tests.PositiveTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.prestashop.tests.PositiveTests@7dc7cbad]" name="setUp" is-config="true" duration-ms="15314" started-at="2018-12-18T23:34:12Z" finished-at="2018-12-18T23:34:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="blankEmailTest()[pri:0, instance:com.prestashop.tests.NegativeTests@d2cc05a]" name="blankEmailTest" duration-ms="1233" started-at="2018-12-18T22:08:56Z" finished-at="2018-12-18T22:08:57Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:com.prestashop.tests.PositiveTests@7dc7cbad]" name="createAccount" duration-ms="8476" started-at="2018-12-18T23:34:27Z" finished-at="2018-12-18T23:34:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- blankEmailTest -->
-        <test-method status="PASS" signature="blankPasswordTest()[pri:0, instance:com.prestashop.tests.NegativeTests@d2cc05a]" name="blankPasswordTest" duration-ms="1097" started-at="2018-12-18T22:08:57Z" finished-at="2018-12-18T22:08:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- blankPasswordTest -->
-        <test-method status="PASS" signature="invalidEmailTest()[pri:0, instance:com.prestashop.tests.NegativeTests@d2cc05a]" name="invalidEmailTest" duration-ms="1190" started-at="2018-12-18T22:08:58Z" finished-at="2018-12-18T22:08:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidEmailTest -->
-        <test-method status="PASS" signature="wrongCredentials()[pri:0, instance:com.prestashop.tests.NegativeTests@d2cc05a]" name="wrongCredentials" duration-ms="1266" started-at="2018-12-18T22:08:59Z" finished-at="2018-12-18T22:09:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wrongCredentials -->
-        <test-method status="PASS" signature="closeup()[pri:0, instance:com.prestashop.tests.NegativeTests@d2cc05a]" name="closeup" is-config="true" duration-ms="837" started-at="2018-12-18T22:09:00Z" finished-at="2018-12-18T22:09:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeup -->
-      </class> <!-- com.prestashop.tests.NegativeTests -->
+        </test-method> <!-- createAccount -->
+      </class> <!-- com.prestashop.tests.PositiveTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
