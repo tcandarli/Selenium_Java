@@ -13,3 +13,5 @@
 2018-12-10 16:56:01,513 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /selenium-maven-log4j/src/main/resources
 2018-12-10 16:56:01,521 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /selenium-maven-log4j/src/test/java
 2018-12-10 16:56:01,527 [Worker-2: Creating project "selenium-maven-log4j"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /selenium-maven-log4j/src/test/resources
+2018-12-17 16:26:12,576 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-18 16:31:38,216 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
