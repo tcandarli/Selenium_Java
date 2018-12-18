@@ -13,7 +13,7 @@ public class NegativeTests {
 	WebDriver driver;
 
 	@BeforeTest
-	public void setup() {
+	public void setUp() {
 
 		System.setProperty("webdriver.chrome.driver", "..\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -67,7 +67,7 @@ public class NegativeTests {
 	}
 
 	@AfterTest
-	public void closeup() {
+	public void closeUp() {
 
 		driver.quit();
 
