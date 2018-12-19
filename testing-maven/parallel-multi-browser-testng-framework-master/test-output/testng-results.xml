@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebOrders Automation Regression Tests" duration-ms="35506" started-at="2018-12-19T19:35:25Z" finished-at="2018-12-19T19:36:00Z">
+    <groups>
+    </groups>
+    <test name="Login tests" duration-ms="35506" started-at="2018-12-19T19:35:25Z" finished-at="2018-12-19T19:36:00Z">
+      <class name="com.cbt.tests.login.LoginTests">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.cbt.tests.login.LoginTests@3e6fa38a]" name="setUp" is-config="true" duration-ms="15659" started-at="2018-12-19T19:35:25Z" finished-at="2018-12-19T19:35:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveloginTest()[pri:0, instance:com.cbt.tests.login.LoginTests@3e6fa38a]" name="positiveloginTest" duration-ms="3865" started-at="2018-12-19T19:35:41Z" finished-at="2018-12-19T19:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveloginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cbt.tests.login.LoginTests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="2720" started-at="2018-12-19T19:35:44Z" finished-at="2018-12-19T19:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.cbt.tests.login.LoginTests@3e6fa38a]" name="setUp" is-config="true" duration-ms="8556" started-at="2018-12-19T19:35:47Z" finished-at="2018-12-19T19:35:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginUsingPOM()[pri:2, instance:com.cbt.tests.login.LoginTests@3e6fa38a]" name="positiveLoginUsingPOM" duration-ms="1977" started-at="2018-12-19T19:35:56Z" finished-at="2018-12-19T19:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginUsingPOM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cbt.tests.login.LoginTests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="2593" started-at="2018-12-19T19:35:58Z" finished-at="2018-12-19T19:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cbt.tests.login.LoginTests -->
+    </test> <!-- Login tests -->
+  </suite> <!-- WebOrders Automation Regression Tests -->
+</testng-results>
