@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests">
-              <span class="suite-name border-passed">WebOrders Automation Regression Tests</span>
+              <span class="suite-name border-failed">WebOrders Automation Regression Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-WebOrders_Automation_Regression_Tests">
-                    <span>C:\Users\PC\Documents\github\Selenium\testing-maven\parallel-multi-browser-testng-framework-master\testng_runner.xml</span>
+                    <span>C:\Users\PC\Documents\github\Selenium\testing-maven\parallel-multi-browser-testng-framework-master\multi_browser_parallel_testing.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-WebOrders_Automation_Regression_Tests">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WebOrders_Automation_Regression_Tests" class="hide-methods failed suite-WebOrders_Automation_Regression_Tests"> (hide)</a> <!-- hide-methods failed suite-WebOrders_Automation_Regression_Tests -->
+                      <a href="#" panel-name="suite-WebOrders_Automation_Regression_Tests" class="show-methods failed suite-WebOrders_Automation_Regression_Tests"> (show)</a> <!-- show-methods failed suite-WebOrders_Automation_Regression_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-WebOrders_Automation_Regression_Tests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests" title="com.cbt.tests.login.LoginTests" hash-for-method="positiveLoginUsingPOM">positiveLoginUsingPOM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests" title="com.cbt.tests.login.LoginTests" hash-for-method="positiveloginTest">positiveloginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WebOrders_Automation_Regression_Tests -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +119,26 @@
                       <a href="#" panel-name="suite-WebOrders_Automation_Regression_Tests" class="show-methods passed suite-WebOrders_Automation_Regression_Tests"> (show)</a> <!-- show-methods passed suite-WebOrders_Automation_Regression_Tests -->
                     </span>
                     <div class="method-list-content passed suite-WebOrders_Automation_Regression_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests" title="com.cbt.tests.order.OrderTests" hash-for-method="availableProductsTest">availableProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests" title="com.cbt.tests.order.OrderTests" hash-for-method="availableProductsTest">availableProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests" title="com.cbt.tests.order.OrderTests" hash-for-method="labelsVerication">labelsVerication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests" title="com.cbt.tests.order.OrderTests" hash-for-method="labelsVerication">labelsVerication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-WebOrders_Automation_Regression_Tests" title="com.cbt.tests.login.LoginTests" hash-for-method="positiveLoginUsingPOM">positiveLoginUsingPOM</a> <!-- method navigator-link -->
@@ -122,6 +161,186 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-WebOrders_Automation_Regression_Tests" class="panel WebOrders_Automation_Regression_Tests">
+          <div class="suite-WebOrders_Automation_Regression_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cbt.tests.login.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLoginUsingPOM">
+                  </a> <!-- positiveLoginUsingPOM -->
+                  <span class="method-name">positiveLoginUsingPOM</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;ctl00_MainContent_username&quot;}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;PC1&apos;, ip: &apos;192.168.0.206&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: C:\Users\PC\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63665}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: 6d93a811803d39dc3b8b48f5a2dde14e
+*** Element info: {Using=id, value=ctl00_MainContent_username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+	at com.cbt.tests.login.LoginTests.positiveLoginUsingPOM(LoginTests.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveloginTest">
+                  </a> <!-- positiveloginTest -->
+                  <span class="method-name">positiveloginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;PC1&apos;, ip: &apos;192.168.0.206&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:363)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at com.cbt.tests.login.LoginTests.positiveloginTest(LoginTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at okio.Okio$2.read(Okio.java:139)
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237)
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:345)
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:217)
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:212)
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 26 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebOrders_Automation_Regression_Tests-class-failed -->
+          <div class="suite-WebOrders_Automation_Regression_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cbt.tests.order.OrderTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="availableProductsTest">
+                  </a> <!-- availableProductsTest -->
+                  <span class="method-name">availableProductsTest</span>
+                  <em>
+(Verify default Products and prices)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="availableProductsTest">
+                  </a> <!-- availableProductsTest -->
+                  <span class="method-name">availableProductsTest</span>
+                  <em>
+(Verify default Products and prices)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="labelsVerication">
+                  </a> <!-- labelsVerication -->
+                  <span class="method-name">labelsVerication</span>
+                  <em>
+(Verify labels and tab links are displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="labelsVerication">
+                  </a> <!-- labelsVerication -->
+                  <span class="method-name">labelsVerication</span>
+                  <em>
+(Verify labels and tab links are displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WebOrders_Automation_Regression_Tests-class-passed -->
           <div class="suite-WebOrders_Automation_Regression_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -147,22 +366,51 @@
         </div> <!-- panel WebOrders_Automation_Regression_Tests -->
         <div panel-name="test-xml-WebOrders_Automation_Regression_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\PC\Documents\github\Selenium\testing-maven\parallel-multi-browser-testng-framework-master\testng_runner.xml</span>
+            <span class="header-content">C:\Users\PC\Documents\github\Selenium\testing-maven\parallel-multi-browser-testng-framework-master\multi_browser_parallel_testing.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;WebOrders Automation Regression Tests&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Login tests&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;WebOrders Automation Regression Tests&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Chrome tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;packages&gt;
-      &lt;package name=&quot;com.cbt.tests.login&quot;/&gt;
+      &lt;package name=&quot;.*&quot;/&gt;
     &lt;/packages&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.cbt.pages.AllOrdersPage&quot;/&gt;
+      &lt;class name=&quot;com.cbt.pages.LoginPage&quot;/&gt;
+      &lt;class name=&quot;com.cbt.pages.ProductsPage&quot;/&gt;
       &lt;class name=&quot;com.cbt.tests.login.LoginTests&quot;/&gt;
+      &lt;class name=&quot;com.cbt.tests.order.OrderTests&quot;/&gt;
+      &lt;class name=&quot;com.cbt.tests.TestBase&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.BrowserUtils$1&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.BrowserUtils$2&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.BrowserUtils&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.ConfigurationReader&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.Driver&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login tests --&gt;
+  &lt;/test&gt; &lt;!-- Chrome tests --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Firefox tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;.*&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.cbt.pages.AllOrdersPage&quot;/&gt;
+      &lt;class name=&quot;com.cbt.pages.LoginPage&quot;/&gt;
+      &lt;class name=&quot;com.cbt.pages.ProductsPage&quot;/&gt;
+      &lt;class name=&quot;com.cbt.tests.login.LoginTests&quot;/&gt;
+      &lt;class name=&quot;com.cbt.tests.order.OrderTests&quot;/&gt;
+      &lt;class name=&quot;com.cbt.tests.TestBase&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.BrowserUtils$1&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.BrowserUtils$2&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.BrowserUtils&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.ConfigurationReader&quot;/&gt;
+      &lt;class name=&quot;com.cbt.utilities.Driver&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox tests --&gt;
 &lt;/suite&gt; &lt;!-- WebOrders Automation Regression Tests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -174,7 +422,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login tests (1 class)</span>
+                <span class="test-name">Chrome tests (11 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox tests (11 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,20 +451,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'positiveloginTest')
 data.setCell(0, 2, 'com.cbt.tests.login.LoginTests')
-data.setCell(0, 3, 3865);
+data.setCell(0, 3, 7562);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'positiveLoginUsingPOM')
-data.setCell(1, 2, 'com.cbt.tests.login.LoginTests')
-data.setCell(1, 3, 1977);
+data.setCell(1, 1, 'labelsVerication')
+data.setCell(1, 2, 'com.cbt.tests.order.OrderTests')
+data.setCell(1, 3, 7295);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'availableProductsTest')
+data.setCell(2, 2, 'com.cbt.tests.order.OrderTests')
+data.setCell(2, 3, 5721);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'positiveLoginUsingPOM')
+data.setCell(3, 2, 'com.cbt.tests.login.LoginTests')
+data.setCell(3, 3, 5289);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'positiveLoginUsingPOM')
+data.setCell(4, 2, 'com.cbt.tests.login.LoginTests')
+data.setCell(4, 3, 4362);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'availableProductsTest')
+data.setCell(5, 2, 'com.cbt.tests.order.OrderTests')
+data.setCell(5, 3, 4359);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'labelsVerication')
+data.setCell(6, 2, 'com.cbt.tests.order.OrderTests')
+data.setCell(6, 3, 3197);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'positiveloginTest')
+data.setCell(7, 2, 'com.cbt.tests.login.LoginTests')
+data.setCell(7, 3, 3101);
 window.suiteTableData['WebOrders_Automation_Regression_Tests']= { tableData: data, tableDiv: 'times-div-WebOrders_Automation_Regression_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-WebOrders_Automation_Regression_Tests">
               </div> <!-- times-div-WebOrders_Automation_Regression_Tests -->
             </div> <!-- times-div -->
@@ -228,12 +503,14 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-WebOrders_Automation_Regression_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.cbt.tests.login.LoginTests</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">invalidUsernameTest</span>
+                <br/>
                 <span class="ignored-method-name">invalidUsernameTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
@@ -251,25 +528,107 @@ return data;
                 <span class="method-name">setUp(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">positiveloginTest</span>
-                <span class="method-start">15659 ms</span>
+                <span class="method-start">10063 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19534 ms</span>
+                <span class="method-start">17633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">positiveloginTest</span>
+                <span class="method-start">18689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21803 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cbt.tests.order.OrderTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">21821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">21821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">availableProductsTest</span>
+                <span class="method-start">27514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">availableProductsTest</span>
+                <span class="method-start">40275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">44319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44636 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">22257 ms</span>
+                <span class="method-start">44640 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">positiveLoginUsingPOM</span>
-                <span class="method-start">30813 ms</span>
+                <span class="method-name">labelsVerication</span>
+                <span class="method-start">51114 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32793 ms</span>
+                <span class="method-start">58411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">labelsVerication</span>
+                <span class="method-start">64320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67518 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cbt.tests.login.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">70463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">70986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">positiveLoginUsingPOM</span>
+                <span class="method-start">79929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">positiveLoginUsingPOM</span>
+                <span class="method-start">90783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">95148 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

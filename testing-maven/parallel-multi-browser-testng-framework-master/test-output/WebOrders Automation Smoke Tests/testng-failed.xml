@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [WebOrders Automation Smoke Tests]" parallel="tests">
+  <test thread-count="2" verbose="2" name="Order tests(failed)" parallel="tests">
+    <classes>
+      <class name="com.cbt.tests.order.OrderTests">
+        <methods>
+          <include name="availableProductsTest"/>
+          <include name="labelsVerication"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cbt.tests.order.OrderTests -->
+    </classes>
+  </test> <!-- Order tests(failed) -->
+</suite> <!-- Failed suite [WebOrders Automation Smoke Tests] -->
