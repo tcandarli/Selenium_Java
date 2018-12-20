@@ -23,7 +23,7 @@ public class loginTest {
 	Properties prop;
 
 	@BeforeTest
-	public void setup() throws IOException {
+	public void setUp() throws IOException {
 
 		prop = new Properties();
 		FileInputStream ip = new FileInputStream(file);
