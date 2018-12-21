@@ -2,23 +2,23 @@ package pomdesign;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pages.AllOrdersPage;
 import pages.WebOrderLoginPage;
 
-public class WebOrderLoginTest {
+public class WebOrderTest {
 
 	WebDriver driver;
-	
-	
+	WebOrderLoginPage loginPage;
+	AllOrdersPage allOrdersPage;
+
 	@BeforeTest
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
@@ -26,49 +26,27 @@ public class WebOrderLoginTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx");
+
 	}
-	
-	
+
 	@AfterTest
 	public void closeUp() {
 		driver.quit();
 	}
-	
-	@Ignore
+
 	@Test
-	public void login() {
-		driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
-		driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("test");
-		driver.findElement(By.id("ctl00_MainContent_login_button")).click();
-		
-	}
-	
-	@Test
-	public void loginusingPOM() {
-		
-		WebOrderLoginPage loginPage = new WebOrderLoginPage(driver);
+	public void labelsVerification() {
+
+		loginPage = new WebOrderLoginPage(driver);
+		allOrdersPage = new AllOrdersPage(driver);
+		Assert.assertEquals(driver.getTitle(), "Web Orders Login", "Login Page is not displayed");
 		loginPage.username.sendKeys("Tester");
 		loginPage.password.sendKeys("test");
 		loginPage.loginButton.click();
-		
+		Assert.assertTrue(allOrdersPage.webOrders.isDisplayed(), "Web Orders is not displayed");
+		Assert.assertTrue(allOrdersPage.listOfAllOrders.isDisplayed(), "List of all orders is not displayed");
+		Assert.assertTrue(allOrdersPage.welcomeMsg.isDisplayed(), "Welcome message is not displayed");
+
 	}
-	
-	@Test
-	public void invalidLogin() {
-		
-		WebOrderLoginPage loginPage = new WebOrderLoginPage(driver);
-		loginPage.username.sendKeys("Tester123");
-		loginPage.password.sendKeys("test");
-		loginPage.loginButton.click();
-		
-		String errorMsg = loginPage.invalidLoginMsg.getText();
-		Assert.assertEquals("Invalid Login or Password.", errorMsg);
-		
-	}
-	
-	
-	
-	
-	
-	
+
 }
