@@ -18,6 +18,8 @@ public class Main {
 
 		// linkText locator
 		driver.findElement(By.linkText("Forgot Password?")).click();
+		
+		driver.navigate().back();
 
 		// partialLinkText locator
 		driver.findElement(By.partialLinkText("new account")).click();

@@ -16,7 +16,7 @@ public class sauceTest {
 	@Test
 	public void login() throws MalformedURLException {
 
-		DesiredCapabilities caps = DesiredCapabilities.firefox();
+		DesiredCapabilities caps = DesiredCapabilities.chrome();
 		caps.setCapability("platform", "Linux");
 		caps.setCapability("version", "42.0");
 
