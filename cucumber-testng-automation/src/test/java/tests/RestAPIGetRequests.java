@@ -3,12 +3,14 @@ package tests;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import org.hamcrest.Matchers;
 import org.jsoup.Connection.Response;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
-import io.restassured.response.*;
-
 import static io.restassured.RestAssured.*;
 
 public class RestAPIGetRequests {
@@ -83,9 +85,35 @@ public class RestAPIGetRequests {
 
 		String url = "http://18.206.61.190:1000/ords/hr/employees/100";
 
-		given().accept(ContentType.JSON).when().get(url).then().assertThat().statusCode(200).and()
-				.contentType(ContentType.JSON);
+		given().accept(ContentType.JSON)
+		.when().get(url)
+		.then().assertThat().statusCode(200)
+		.and().contentType(ContentType.JSON);
 
+	}
+
+	/*
+	 * Given Accept type is JSON 
+	 * When I send a GET request to REST URL:
+	 * http://18.206.61.190:1000/ords/hr/employees/100 
+	 * Then status code is 200 
+	 * And Response content should be json 
+	 * And first name should be "Steven And employee
+	 * id is 100
+	 */
+	
+	@Test
+	public void verifyFirstName() throws URISyntaxException {
+		
+		URI uri = new URI("http://18.206.61.190:1000/ords/hr/employees/100");
+		
+		given().accept(ContentType.JSON)
+		.when().get(uri)
+		.then().assertThat().statusCode(200)
+		.and().contentType(ContentType.JSON)
+		.and().assertThat().body("first_name", Matchers.equalTo("Steven"))
+		.and().assertThat().body("employee_id", Matchers.equalTo(100));
+		
 	}
 
 }
