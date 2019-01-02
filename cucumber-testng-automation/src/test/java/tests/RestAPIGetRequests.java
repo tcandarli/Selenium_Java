@@ -7,6 +7,8 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 import org.hamcrest.Matchers;
+import static org.hamcrest.Matchers.*;
+
 import org.jsoup.Connection.Response;
 import org.testng.annotations.Test;
 
@@ -111,7 +113,7 @@ public class RestAPIGetRequests {
 		.when().get(uri)
 		.then().assertThat().statusCode(200)
 		.and().contentType(ContentType.JSON)
-		.and().assertThat().body("first_name", Matchers.equalTo("Steven"))
+		.and().assertThat().body("first_name", equalTo("Steven"))
 		.and().assertThat().body("employee_id", Matchers.equalTo(100));
 		
 	}
