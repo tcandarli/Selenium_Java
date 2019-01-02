@@ -1,7 +1,5 @@
 package com.bookit.step_definitions;
 
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.But;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -27,5 +25,7 @@ public class LoginStepDefinitions {
 	public void the_user_logs_in_as_a_team_lead() {
 		System.out.println("Logging in as a team lead");
 	}
+	
+	
 
 }

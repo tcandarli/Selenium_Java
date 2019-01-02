@@ -5,6 +5,7 @@ Scenario: Login as teacher
 	When the user logs in as a teacher 
 	Then the user should be logged in 
 	
+#@login
 Scenario: Login as a team lead 
 	Given the user is on the login page 
 	When the user logs in as a team lead
