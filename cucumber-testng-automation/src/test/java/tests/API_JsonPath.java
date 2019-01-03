@@ -48,7 +48,37 @@ public class API_JsonPath {
 		.and().contentType(ContentType.JSON)
 		.and().assertThat().body("items.employee_id", hasSize(100));
 		
+	}
+	
+	/*
+	 * Given Accept type is Json
+	 * And Params are limit=100
+	 * And path param is 110
+	 * When I send get request to 
+	 * http://34.223.219.142:1212/ords/hr/employee 
+	 * Then status code is 200 
+	 * And Response content should be json 
+	 * And following data should be returned:
+	 * "employee_id": 110,
+	    "first_name": "John",
+	    "last_name": "Chen",
+	    "email": "JCHEN",
+	 */
+	
+	@Test
+	public void testWithPathParameter() {
 		
+		given().accept(ContentType.JSON)
+		.and().params("limit", 100)
+		.and().pathParams("employee_id", 110)
+		.when().get(ConfigurationReader.getProperty("hrapp.baseresturl") + "/employees")
+		.then().statusCode(200)
+		.and().contentType(ContentType.JSON)
+		.and().assertThat().body("employee_id", equalTo(110),
+								 "first_name", equalTo("John"),
+								 "last_name", equalTo("Chen"),
+								 "email", equalTo("JCHEN"));
+													
 	}
 
 }
