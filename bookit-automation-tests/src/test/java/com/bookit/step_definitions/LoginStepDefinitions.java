@@ -46,7 +46,24 @@ public class LoginStepDefinitions {
 
 	@When("the user logs in as a team lead")
 	public void the_user_logs_in_as_a_team_lead() {
-		System.out.println("Logging in as a team lead");
+		String email = ConfigurationReader.getProperty("team_leader_email");
+		String password = ConfigurationReader.getProperty("team_leader_password7");
+
+		SignInPage signInPage = new SignInPage();
+		signInPage.email.sendKeys(email);
+		signInPage.password.sendKeys(password + Keys.ENTER);
+	}
+
+	@When("the user logs using {string} and {string}")
+	public void the_user_logs_using_and(String email, String password) {
+		SignInPage signInPage = new SignInPage();
+		signInPage.email.sendKeys(email);
+		signInPage.password.sendKeys(password);
+	}
+
+	@Then("there should be {int} rooms")
+	public void there_should_be_rooms(Integer int1) {
+		System.out.println(int1);
 	}
 
 }
