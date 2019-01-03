@@ -1,6 +1,6 @@
 Feature: View schedule 
 
-@schedule
+@schedule @smoke
 Scenario: My team schedule 
 	Given the user is on the login page 
 	And the user logs in as a teacher 
