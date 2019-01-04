@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 import utilities.ConfigurationReader;
 
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 public class API_JsonPath {
 
@@ -95,14 +97,25 @@ public class API_JsonPath {
 	 * all employee ids should be returned
 	 */
 	
-	/*
+	
 	@Test
 	public void testWithJsonPath() {
 		
 		Map<String, Integer> rParamMap = new HashMap<>();
+		rParamMap.put("limit", 100);
 		
+		Response response =  given().accept(ContentType.JSON)  // header
+							.and().params(rParamMap) // query param/request param
+							.and().pathParams("employee_id", 110) // path param
+							.when().get(ConfigurationReader.getProperty("hrapp.baseresturl") + "/employees/{employee_id}");
+		
+		JsonPath json = response.jsonPath();  // get json body and assign to jsonPath object
+		System.out.println(json.getInt("employee_id")); 
+		System.out.println(json.getString("last_name")); 
+		System.out.println(json.getString("job_id")); 
+		System.out.println(json.getString("salary")); 	
 		
 	}
-	*/
+	
 
 }
