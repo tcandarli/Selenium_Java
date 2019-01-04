@@ -58,7 +58,7 @@ public class LoginStepDefinitions {
 	public void the_user_logs_using_and(String email, String password) {
 		SignInPage signInPage = new SignInPage();
 		signInPage.email.sendKeys(email);
-		signInPage.password.sendKeys(password);
+		signInPage.password.sendKeys(password + Keys.ENTER);
 	}
 
 	@Then("there should be {int} rooms")

@@ -2,6 +2,10 @@ package tests;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+
+import java.util.HashMap;
+import java.util.Map;
+
 import org.testng.annotations.Test;
 import utilities.ConfigurationReader;
 
@@ -55,7 +59,7 @@ public class API_JsonPath {
 	 * And Params are limit=100
 	 * And path param is 110
 	 * When I send get request to 
-	 * http://34.223.219.142:1212/ords/hr/employee 
+	 * http://18.206.61.190:1000/ords/hr/employee 
 	 * Then status code is 200 
 	 * And Response content should be json 
 	 * And following data should be returned:
@@ -71,7 +75,7 @@ public class API_JsonPath {
 		given().accept(ContentType.JSON)
 		.and().params("limit", 100)
 		.and().pathParams("employee_id", 110)
-		.when().get(ConfigurationReader.getProperty("hrapp.baseresturl") + "/employees")
+		.when().get(ConfigurationReader.getProperty("hrapp.baseresturl") + "/employees/{employee_id}")
 		.then().statusCode(200)
 		.and().contentType(ContentType.JSON)
 		.and().assertThat().body("employee_id", equalTo(110),
@@ -80,5 +84,25 @@ public class API_JsonPath {
 								 "email", equalTo("JCHEN"));
 													
 	}
+	
+	/*
+	 * Given Accept type is Json
+	 * And Params are limit=100
+	 * When I send get request to 
+	 * http://18.206.61.190:1000/ords/hr/employee 
+	 * Then status code is 200 
+	 * And Response content should be json 
+	 * all employee ids should be returned
+	 */
+	
+	/*
+	@Test
+	public void testWithJsonPath() {
+		
+		Map<String, Integer> rParamMap = new HashMap<>();
+		
+		
+	}
+	*/
 
 }
