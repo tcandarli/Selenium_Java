@@ -162,7 +162,9 @@ public class API_JsonPath {
 		List<String> empIdList = json.getList("items.findAll{it.employee_id > 150}.employee_id");
 		System.out.println(empIdList);
 		
-		
+		// Get all employee lastnames, whose salary is more than 7000
+		List<String> lastNames = json.getList("items.findAll{it.salary > 7000}.last_name");
+		System.out.println(lastNames);
 		
 							
 		
