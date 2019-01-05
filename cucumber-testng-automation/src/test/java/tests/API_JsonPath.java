@@ -2,8 +2,10 @@ package tests;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+import static org.testng.Assert.assertEquals;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.testng.annotations.Test;
@@ -106,14 +108,66 @@ public class API_JsonPath {
 		
 		Response response =  given().accept(ContentType.JSON)  // header
 							.and().params(rParamMap) // query param/request param
-							.and().pathParams("employee_id", 110) // path param
+							.and().pathParams("employee_id", 177) // path param
 							.when().get(ConfigurationReader.getProperty("hrapp.baseresturl") + "/employees/{employee_id}");
 		
 		JsonPath json = response.jsonPath();  // get json body and assign to jsonPath object
 		System.out.println(json.getInt("employee_id")); 
 		System.out.println(json.getString("last_name")); 
 		System.out.println(json.getString("job_id")); 
-		System.out.println(json.getString("salary")); 	
+		System.out.println(json.getString("salary")); 
+		System.out.println(json.getString("links[1].href"));  // get specific element from array
+		
+		// assign all hrefs into a list of strings
+		List<String> hrefs = json.getList("links.href");
+		System.out.println(hrefs);
+		
+	}
+	
+	/*
+	 * Given Accept type is Json
+	 * And Params are limit=100
+	 * When I send get request to 
+	 * http://18.206.61.190:1000/ords/hr/employee 
+	 * Then status code is 200 
+	 * And Response content should be json 
+	 * all employee data should be returned
+	 */
+	
+	@Test
+	public void testJsonPathWithLists() {
+		
+		Map<String,Integer> rParamMap = new HashMap<>();
+		rParamMap.put("limit", 100);
+		
+		Response response = given().accept(ContentType.JSON)
+							.and().params(rParamMap)
+							.when().get(ConfigurationReader.getProperty("hrapp.baseresturl") + "/employees");
+		
+		assertEquals(response.statusCode(), 200);  // check status code
+		
+		JsonPath json = response.jsonPath();
+	//	JsonPath json = new JsonPath(FilePath.json);
+	//	JsonPath json = new JsonPath(response.asString());   // Second way
+		
+	// 	Get all employee ids into an arraylist
+		
+		List<Integer> empIds = json.getList("items.employee_id");
+		System.out.println(empIds);
+		
+		// assert that there are 100 employee ids
+		assertEquals(empIds.size(), 100);
+		
+		// Get all employee ids that are greater than 150
+		List<String> empIdList = json.getList("items.findAll{it.employee_id > 150}.employee_id");
+		System.out.println(empIdList);
+		
+		
+		
+							
+		
+		
+		
 		
 	}
 	
