@@ -166,11 +166,15 @@ public class API_JsonPath {
 		List<String> lastNames = json.getList("items.findAll{it.salary > 7000}.last_name");
 		System.out.println(lastNames);
 		
-							
+		// Get all emails and assign into arraylist
+		List<String> emails = json.getList("items.employee_id");
+		System.out.println(emails);
+		
+		assertEquals(emails.size(), 100);
 		
 		
-		
-		
+	
+	
 	}
 	
 
