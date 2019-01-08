@@ -8,7 +8,7 @@ Scenario: Team information
 	Then the team name "Django" should be displayed
 
 # Data Driven Testing : One scenario multiple data	
-@account
+
 Scenario Outline: Team information multiple users
 	Given the user is on the login page 
 	And the user logs using "<email>" and "<password>" 
