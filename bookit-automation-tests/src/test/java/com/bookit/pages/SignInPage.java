@@ -9,7 +9,6 @@ import com.bookit.utilities.Driver;
 public class SignInPage {
 
 	public SignInPage() {
-
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 
@@ -18,7 +17,8 @@ public class SignInPage {
 
 	@FindBy(name = "password")
 	public WebElement password;
-	
-	
+
+	@FindBy(xpath = "//button[.='sign in']")
+	public WebElement signInButton;
 
 }
