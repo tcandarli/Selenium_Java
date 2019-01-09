@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.bookit.utilities.Driver;
 
-public class SelfPage {
+public class SelfPage extends TopNavigationBar{
 
 	public SelfPage() {
 		PageFactory.initElements(Driver.getDriver(), this);

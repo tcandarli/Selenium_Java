@@ -1,3 +1,4 @@
+package com.bookit.pages;
 
 import java.util.List;
 
