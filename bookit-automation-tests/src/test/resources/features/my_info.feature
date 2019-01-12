@@ -6,13 +6,13 @@ Scenario: my self
 	When user is on the myself page
 	Then user info should match with the database records for "efewtrell8c@craigslist.org"
 
-@temp @db
+ @db
 Scenario:
 	Given user logs in using "efewtrell8c@craigslist.org" "jamesmay"
 	When user is on the my team page
 	Then team info should match with the database records "efewtrell8c@craigslist.org"
 	
- @db
+@temp @db
 Scenario Outline: my self data driven framework
 	Given user logs in using "<email>" "<password>"
 	When user is on the myself page
