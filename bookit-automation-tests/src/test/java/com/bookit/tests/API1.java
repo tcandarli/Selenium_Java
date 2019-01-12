@@ -34,6 +34,30 @@ public class API1 {
 		.body().prettyPrint();
 	}
 	
+	 /* When I send a GET request to URL/countries
+	   * And Accept type is "application/json"
+	   * Then I should see the JSON response
+	   */
+	
+	@Test
+	public void getWithHeaders() {
+		given().accept(ContentType.JSON)
+		.when().get("http://18.206.61.190:1000/ords/hr/countries")
+		.then().statusCode(200);
+	}
+	
+	 /* When I send a GET request to URL/employees/1234
+	   * Then response STATUS CODE should be 404
+	   */
+	
+	public void negativeGet() {
+		
+		when().get("http://18.206.61.190:1000/ords/hr/countries")
+		.then().statusCode(404);
+	}
+	
+	
+	
 	
 	
 	/*
