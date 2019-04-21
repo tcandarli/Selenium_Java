@@ -20,7 +20,7 @@ public class AutoDropdown {
 		// We can create a li list for drop down elements and find elements from the list
 		List<WebElement> list = driver.findElements(By.cssSelector("[role='listbox']>li"));
 		System.out.println(list.size());
-		list.get(4).click();
+		list.get(2).click();
 
 	}
 

@@ -14,9 +14,10 @@ public class CheckBox {
 		driver.manage().window().maximize();
 		
 		List<WebElement> allCheckBoxes = driver.findElements(By.name("profession"));
-		allCheckBoxes.size();
-		allCheckBoxes.get(0).click();
-		System.out.println(allCheckBoxes.get(1).isSelected());
+		int size = allCheckBoxes.size();
+		allCheckBoxes.get(1).click();
+		System.out.println(size);
+		System.out.println(allCheckBoxes.get(0).isSelected());
 		
 	}
 

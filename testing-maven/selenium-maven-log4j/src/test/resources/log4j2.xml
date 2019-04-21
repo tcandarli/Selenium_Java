@@ -18,7 +18,7 @@
 
 	<Loggers>
 
-		<Logger name="package1.logTest" level="error"
+		<Logger name="package1.logTest" level="trace"
 			additivity="false">
 			<AppenderRef ref="File" />
 

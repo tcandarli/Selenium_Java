@@ -17,7 +17,7 @@ public class Task6 {
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 
 		System.out.println(links.size());
-		WebElement link = links.get(9);
+		WebElement link = links.get(3);
 		System.out.println(link.getText());
 		link.click();
 

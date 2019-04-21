@@ -19,14 +19,14 @@ public class RestAPIGetRequests {
 
 	/*
 	 * When I send a GET request to REST Url
-	 * http://18.206.61.190:1000/ords/hr/employees Then response status should be
+	 * http://54.196.247.168:1000/ords/hr/employees Then response status should be
 	 * 200
 	 * 
 	 */
 	@Test
 	public void simpleGet() {
 
-		when().get("http://18.206.61.190:1000/ords/hr/employees").then().statusCode(200);
+		when().get("http://54.196.247.168:1000/ords/hr/employees").then().statusCode(200);
 
 	}
 
@@ -38,7 +38,7 @@ public class RestAPIGetRequests {
 	@Test
 	public void printResponse() {
 
-		when().get("http://18.206.61.190:1000/ords/hr/countries").body().prettyPrint();
+		when().get("http://54.196.247.168:1000/ords/hr/countries").body().prettyPrint();
 
 	}
 
@@ -52,7 +52,7 @@ public class RestAPIGetRequests {
 	public void getWithHeaders() {
 
 		with().accept(ContentType.JSON) // accept - application/json
-				.when().get("http://18.206.61.190:1000/ords/hr/countries/US").then().statusCode(200);
+				.when().get("http://54.196.247.168:1000/ords/hr/countries/US").then().statusCode(200);
 
 	}
 
@@ -67,7 +67,7 @@ public class RestAPIGetRequests {
 		// when().get("http://18.206.61.190:1000/ords/hr/employees/1234").then().statusCode(404);
 		// // First way
 
-		io.restassured.response.Response response = when().get("http://18.206.61.190:1000/ords/hr/employees/1234");
+		io.restassured.response.Response response = when().get("http://54.196.247.168:1000/ords/hr/employees/1234");
 		assertEquals(response.statusCode(), 404);
 		assertTrue(response.asString().contains("Not Found"));
 		response.prettyPrint();
@@ -85,7 +85,7 @@ public class RestAPIGetRequests {
 	@Test
 	public void verifyContentTypeWithAssertThat() {
 
-		String url = "http://18.206.61.190:1000/ords/hr/employees/100";
+		String url = "http://54.196.247.168:1000/ords/hr/employees/100";
 
 		given().accept(ContentType.JSON)
 		.when().get(url)
@@ -107,7 +107,7 @@ public class RestAPIGetRequests {
 	@Test
 	public void verifyFirstName() throws URISyntaxException {
 		
-		URI uri = new URI("http://18.206.61.190:1000/ords/hr/employees/100");
+		URI uri = new URI("http://54.196.247.168:1000/ords/hr/employees/100");
 		
 		given().accept(ContentType.JSON)
 		.when().get(uri)

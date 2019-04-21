@@ -11,7 +11,7 @@ public class Task3 {
 
 		String title = driver.getTitle();
 
-		if (title.contains("Online")) {
+		if (title.contains("Computer")) {
 			System.out.println("Verified");
 		} else {
 			System.out.println("Not verified");

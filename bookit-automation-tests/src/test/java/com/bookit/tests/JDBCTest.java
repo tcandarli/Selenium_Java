@@ -73,7 +73,7 @@ public class JDBCTest {
 
 	}
 
-	@Test(enabled = false)
+	@Test(enabled=false)
 	public void JDBCMetaData() throws SQLException {
 
 		Connection connection = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);

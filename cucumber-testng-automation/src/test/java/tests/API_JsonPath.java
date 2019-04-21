@@ -172,10 +172,6 @@ public class API_JsonPath {
 		
 		assertEquals(emails.size(), 100);
 		
-		
-	
-	
 	}
 	
-
 }

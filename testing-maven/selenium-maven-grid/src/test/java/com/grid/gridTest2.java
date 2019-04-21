@@ -15,7 +15,7 @@ public class gridTest2 {
 
 		DesiredCapabilities caps = DesiredCapabilities.chrome();
 		caps.setPlatform(Platform.ANY);
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.206:4444/wd/hub"), caps);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.207:4444/wd/hub"), caps);
 		driver.get("https://www.cnn.com");
 	
 

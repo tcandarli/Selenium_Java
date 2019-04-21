@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class AppDataProvider {
 
-	@Ignore
+	// @Ignore
 	@Test(dataProvider = "getdata")
 	public void loginTest(String username) {
 		System.out.println(username);

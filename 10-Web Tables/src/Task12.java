@@ -25,7 +25,7 @@ public class Task12 {
 		String y = driver.findElement(By.xpath("//div[@class='su-table']/table/tbody/tr[6]/td[1]")).getText();
 		System.out.println(y);
 
-		driver.quit();
+		// driver.quit();
 
 	}
 

@@ -2,26 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4218db99-e2a9-408d-93b1-cfe3d358f89d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/color-definitions-fix.css" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/color-definitions-fix.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.egit.ui-1849137576.css" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.egit.ui-1849137576.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.monitor.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.monitor.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.genuitec.eclipse.theming.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.dtd.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.sweetlemonade.eclipse.json.prefs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/4243487459.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/4243487459.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.recommenders.news.impl/downloads/http%3A%2F%2Fwww.eclipse.org%2Fhome%2Feclipsenews.rss" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.recommenders.news.impl/downloads/http%3A%2F%2Fwww.eclipse.org%2Fhome%2Feclipsenews.rss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.recommenders.news.impl/downloads/https%3A%2F%2Fwww.genuitec.com%2Ffeed%2F" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.recommenders.news.impl/downloads/https%3A%2F%2Fwww.genuitec.com%2Ffeed%2F" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_photon_/segments.gen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Launching Browsers/bin/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-Launching Browsers/bin/Task3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Launching Browsers/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-Launching Browsers/src/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Identifying Elements/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-Identifying Elements/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-maven/selenium-maven-saucelabs/src/test/java/com/cybertek/sauceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-maven/selenium-maven-saucelabs/src/test/java/com/cybertek/sauceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-Web Tables/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-Web Tables/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-Web Tables/src/Task12.java" beforeDir="false" afterPath="$PROJECT_DIR$/10-Web Tables/src/Task12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Misc/src/AutoDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-Misc/src/AutoDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-Misc/src/CookieManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/11-Misc/src/CookieManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/src/testcases/AppDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/src/testcases/AppDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/Default suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.App.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.App.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppAssertions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppAssertions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppBeforeAfterSuit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppBeforeAfterSuit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppDataProvider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppDataProvider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppDependsOnMethods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/junitreports/TEST-testcases.AppDependsOnMethods.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/old/Default suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-TestNG/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12-TestNG/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-Identifying Elements/src/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-Identifying Elements/src/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-Identifying Elements/src/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/2-Identifying Elements/src/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-Synchronization/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3-Synchronization/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-Find Elements/src/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-Find Elements/src/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5-Web Elements/src/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/5-Web Elements/src/CheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-Multiple Windows/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/6-Multiple Windows/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/tests/API1.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/tests/API1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/tests/API2.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/tests/API2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/tests/JDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/tests/JDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/junitreports/TEST-com.bookit.tests.API2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/junitreports/TEST-com.bookit.tests.API2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/junitreports/TEST-com.bookit.tests.JDBCTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/junitreports/TEST-com.bookit.tests.JDBCTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/Default suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookit-automation-tests/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookit-automation-tests/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-testng-automation/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber-testng-automation/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-testng-automation/src/test/java/tests/API_GSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber-testng-automation/src/test/java/tests/API_GSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-testng-automation/src/test/java/tests/API_JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber-testng-automation/src/test/java/tests/API_JsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber-testng-automation/src/test/java/tests/RestAPIGetRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber-testng-automation/src/test/java/tests/RestAPIGetRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-maven/WorkingWithExcel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing-maven/WorkingWithExcel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-maven/WorkingWithExcel/src/test/java/com/cybertek/Xls_Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-maven/WorkingWithExcel/src/test/java/com/cybertek/Xls_Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-maven/selenium-maven-grid/src/test/java/com/grid/gridTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-maven/selenium-maven-grid/src/test/java/com/grid/gridTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-maven/selenium-maven-log4j/src/test/java/package1/logTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testing-maven/selenium-maven-log4j/src/test/java/package1/logTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-maven/selenium-maven-log4j/src/test/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing-maven/selenium-maven-log4j/src/test/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,20 +99,96 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cucumber-Automation/src/test/java/features/Login.feature">
+        <entry file="file://$PROJECT_DIR$/7-Alert Boxes/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-Launching Browsers/src/BrowserMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-Launching Browsers/src/Task2.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cucumber-Automation/src/test/java/features/Login2.feature">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-Launching Browsers/src/Task3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/beans/RegionResponse.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/pages/SignInPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/pages/TeamPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/runners/CukesRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5-Web Elements/src/TakeScreenShot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookit-automation-tests/target/cucumber.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -58,18 +204,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="200" />
+    <option name="y" value="195" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -81,52 +226,29 @@
             <path>
               <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Cucumber-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="5-Web Elements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Cucumber-Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="5-Web Elements" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Cucumber-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Cucumber-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Cucumber-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Cucumber-Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553360207039" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,15 +277,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24496645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -174,7 +296,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -183,18 +306,172 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cucumber-Automation/src/test/java/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cucumber-Automation/src/test/java/features/Login2.feature">
+    <entry file="file://$PROJECT_DIR$/cucumber-automation/src/test/java/features/Login2.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber-automation/src/test/java/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-Alert Boxes/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Launching Browsers/src/BrowserMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Launching Browsers/src/Task2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-Launching Browsers/src/Task3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/beans/RegionResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/pages/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/pages/TeamPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookit-automation-tests/src/test/java/com/bookit/runners/CukesRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookit-automation-tests/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-Web Elements/src/TakeScreenShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Selenium</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

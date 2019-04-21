@@ -20,7 +20,7 @@ public class Main {
 		List<WebElement> price = driver.findElements(By.xpath("//*[@class='dataTable']/tbody/tr/td[4]"));
 		System.out.println(price.size());
 		
-		String companyName = "Commercial Engineers";
+		String companyName = "Frontline Securi";
 
 		for (int i = 0; i < names.size(); i++) {
 

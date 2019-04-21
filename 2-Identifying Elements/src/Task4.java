@@ -15,7 +15,7 @@ public class Task4 {
 		
 		// enter password
 		driver.findElement(By.name("password")).sendKeys("tutorial");
-		
+			
 		// click to sign in button
 		driver.findElement(By.name("login")).click();
 		

@@ -21,7 +21,7 @@ public class API_GSON {
 		Response response =  given().accept(ContentType.JSON)
 		.when().get(ConfigurationReader.getProperty("hrapp.baseresturl") + "/employees/120");
 		
-		Map<String, String>  map = response.as(HashMap.class);
+		HashMap<String, String>  map = response.as(HashMap.class);
 		
 		System.out.println(map.keySet());
 		System.out.println(map.values());

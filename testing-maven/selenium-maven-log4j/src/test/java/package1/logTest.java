@@ -14,7 +14,7 @@ public class logTest {
 		// ex: After loading page
 		log.debug("starting");
 
-		if (0 > 2) {
+		if (3 > 2) {
 			log.info("Object is present");
 		} else {
 			log.error("Object is not present");

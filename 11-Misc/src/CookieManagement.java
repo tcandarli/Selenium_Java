@@ -12,7 +12,7 @@ public class CookieManagement {
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get("httpw://www.cnn.com/");
+		driver.get("https://www.cnn.com/");
 
 		Set<Cookie> ck = driver.manage().getCookies();
 

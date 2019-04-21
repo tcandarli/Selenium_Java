@@ -30,9 +30,9 @@ public class Main {
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10); // Wait 10 seconds
 		
-		driver.findElement(By.id("H-destination")).sendKeys("nyc");
-		driver.findElement(By.id("H-destination")).sendKeys(Keys.TAB);	// Press TAB key
-		driver.findElement(By.id("H-destination")).sendKeys(Keys.ENTER); // Press ENTER key
+		driver.findElement(By.id("FH-origin")).sendKeys("nyc");
+		driver.findElement(By.id("FH-origin")).sendKeys(Keys.TAB);	// Press TAB key
+		driver.findElement(By.id("FH-origin")).sendKeys(Keys.ENTER); // Press ENTER key
 		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(@href, 'Hotels')]")));
 		driver.findElement(By.xpath("//a[contains(@href, 'Hotels')]")).click();
