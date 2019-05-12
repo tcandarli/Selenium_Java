@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6084652728,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as guest",
+        "description": "",
+        "id": "login-page-tests;login-as-guest",
+        "after": [
+          {
+            "result": {
+              "duration": 1973797569,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21779953255,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232311695,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs in as mikesmith",
+            "match": {
+              "location": "LoginStepDefinitions.the_user_logs_in_as_mikesmith()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9391163399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be logged in",
+            "match": {
+              "location": "LoginStepDefinitions.the_user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32853,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "there should be dashboard",
+            "match": {
+              "location": "LoginStepDefinitions.there_should_be_dashboard()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login page tests",
+    "description": "",
+    "id": "login-page-tests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
