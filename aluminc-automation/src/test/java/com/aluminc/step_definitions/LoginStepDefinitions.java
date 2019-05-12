@@ -48,7 +48,9 @@ public class LoginStepDefinitions {
 	@Then("there should be dashboard")
 	public void there_should_be_dashboard() {
 		
-	   
+		Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		DashBoardPage dashBoardPage = new DashBoardPage();
+		Assert.assertTrue(dashBoardPage.dashboard.isDisplayed());
 		
 	}
 
